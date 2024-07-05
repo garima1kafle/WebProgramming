@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sana Sana Babu Nani Online Store</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
+</head>
+
+<body>
+
+    <header style="background-color: rgb(0, 0, 0); color: rgb(237, 225, 225); padding: 10px;">
+            
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            
+            <div style="display: flex; align-items: center;">
+                
+                <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" style="width: 2.5cm; height: 2.5cm; margin-right: 1%;">
+                
+                <h1 style="margin: 0;">Sana Sana Babu Nani Online Store</h1>
+
+
+            </div>
+
+            <div style="display: flex; align-items: center;">
+
+                <input type="text" id="search" name="search" placeholder="Search for products..." style="padding: 5px; width: 300px;">
+
+                <button type="submit" style="padding: 5px 10px; margin-left: 10px;">
+                    Search
+                </button>
+
+                <nav style="color: rgb(255, 245, 245); padding-left: 10px;">
+
+                    <a href="login.html" style="color: rgb(255, 245, 245); margin-left: 10px;">Login</a> &nbsp; | &nbsp;
+                    <a href="#mycart" style="color: rgb(255, 245, 245);">My Carts</a>
+                    
+                </nav>
+
+            </div>
+            
+        </div>
+
+    </header>
+
+
+
+    <main style="padding: 150px; background-color: #c1c5c6; text-align: center;">
+
+        <h1>Login to Sana Sana Babu Nani Online Store</h1>
+
+            <br>
+
+        <form action="/login" method="post">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <p>
+            Don't have an account? <a href="register.html">Register here</a>.
+        </p>
+    </main>
+
+    
+
+    <footer style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 10px;">
+
+        <p>
+            &copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
