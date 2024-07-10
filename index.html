@@ -6,6 +6,8 @@
     <title>Sana Sana Babu Nani Online Store</title>
     <!-- Favicon -->
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="collection.css">
 </head>
 <body>
     <header>
@@ -28,7 +30,7 @@
     </header>
 
     <nav style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245); padding: 10px;">
-        <a href="#home" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Home</a> &nbsp; | &nbsp;
+        <a href="#home" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);"><u>Home</u></a> &nbsp; | &nbsp;
 
         <!-- Collection Dropdown -->
         <details style="display: inline-block; color: rgb(255, 245, 245); padding: 5px;">
@@ -36,19 +38,23 @@
             <ul style="background-color: #fff; color: #000; list-style: none; padding: 0; margin: 0; border: 1px solid #ddd;">
                 <li><a href="#boy-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
                     Boy Dress</a></li>
+                    <hr>
                 <li><a href="#girl-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
                     Girl Dress</a></li>
+                    <hr>
                 <li><a href="#new-arrival" style="color: #000; padding: 10px; display: block; text-decoration: none;">
                     New Arrival</a></li>
+                    <hr>
                 <li><a href="#best-seller" style="color: #000; padding: 10px; display: block; text-decoration: none;">
                     Best Seller</a></li>
+                    <hr>
                 <li><a href="#toy" style="color: #000; padding: 10px; display: block; text-decoration: none;">Toy</a></li>
             </ul>
         </details>
 
         &nbsp; | &nbsp;
-        <a href="faqs.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">FAQs</a> &nbsp; | &nbsp;
-        <a href="contact.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Contact Us</a>
+        <a href="faqs.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);"><u>FAQs</u></a> &nbsp; | &nbsp;
+        <a href="contact.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);"><u>Contact Us</u></a>
     </nav>
 
     <main style="padding: 10px; background-color: #c1c5c6;">
@@ -124,14 +130,14 @@
             
 
         </div>
-            
 
-            <div style="text-align: center; margin-top: 20px;">
-                
-                <a href="products-page2.html" style="padding: 10px 20px; background-color: #007bff; color: #fff; 
-                text-decoration: none;">See More</a>
-            </div>
-        </section>
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="products-page2.html" style="padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none;">
+        See More
+    </a>
+</div>
+</section>
 
 <br>
 <br>
@@ -139,24 +145,28 @@
 <br>
 <br>
 
-    </main>
+</main>
 
-    <footer style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 10px;">
-        <p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
-    </footer>
+<footer style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 10px;">
+<p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
+</footer>
 
-    <!-- Ad Section -->
-    <div id="ad-popup" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
-    background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; display: block;">
-        <div style="margin: 3% auto; background-color: #e8e5e5; color: #000; padding: 10px; 
-        width: 60%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
-            <h2>Special Offer!</h2>
-            <p>Get 10% off on your first purchase. Order Now!</p>
-            <img src="Pictures/ads.png" alt="Special Offer" style="width: 70%; height: 400px;">
-            <br><br>
-            <button onclick="document.getElementById('ad-popup').style.display='none';" style="padding: 10px 20px; 
-            background-color: #007bff; color: #fff; border: none; cursor: pointer;">Close</button>
-        </div>
-    </div>
+<!-- Ad Section -->
+<div id="ad-popup" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; display: none;">
+<div style="margin: 3% auto; background-color: #e8e5e5; color: #000; padding: 10px; 
+width: 60%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+<h2>Special Offer!</h2>
+<p>Get 10% off on your first purchase. Order Now!</p>
+<img src="Pictures/ads.png" alt="Special Offer" style="width: 70%; height: 400px;">
+<br><br>
+<button id="close-ad-btn" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; cursor: pointer;">
+    Close
+</button>
+</div>
+</div>
+
+<!-- Include the ads.js script -->
+<script src="ads.js"></script>
 </body>
 </html>
