@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,51 +9,48 @@
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
     <!-- External CSS -->
     <link rel="stylesheet" href="collection.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <div style="background-color: rgb(0, 0, 0); color: rgb(237, 225, 225); padding: 10px;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div style="display: flex; align-items: center;">
-                    <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" style="width: 2.5cm; height: 2.5cm; margin-right: 1%;">
-                    <h1 style="margin: 0;">Sana Sana Babu Nani Online Store</h1>
-                </div>
-                <div style="display: flex; align-items: center;">
-                    <input type="text" id="search" name="search" placeholder="Search for products..." style="padding: 5px; width: 300px;">
-                    <button type="submit" style="padding: 5px 10px; margin-left: 10px;">Search</button>
-                    <nav style="color: rgb(255, 245, 245); padding-left: 10px;">
-                        <a href="login.html" style="color: rgb(255, 245, 245); margin-left: 10px;">Login</a> &nbsp; | &nbsp;
-                        <a href="carts.html" style="color: rgb(255, 245, 245);">My Carts</a>
-                    </nav>
-                </div>
+    <header class="header-container">
+        <div class="header-flex">
+            <div class="logo-title">
+                <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" class="logo">
+                <h1>Sana Sana Babu Nani Online Store</h1>
+            </div>
+            <div class="search-login">
+                <input type="text" id="search" name="search" placeholder="Search for products..." class="search-box">
+                <button type="submit" class="search-button">Search</button>
+                <nav class="nav-links">
+                    <a href="login.html">Login</a> &nbsp; | &nbsp;
+                    <a href="carts.html">My Carts</a>
+                </nav>
             </div>
         </div>
     </header>
 
-    <nav style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245); padding: 10px;">
-        <a href="index.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Home</a> &nbsp; | &nbsp;
+    <nav class="main-nav">
+        <a href="index.html"><u>Home</u></a> &nbsp; | &nbsp;
+
         <!-- Collection Dropdown -->
-        <details style="display: inline-block; color: rgb(255, 245, 245); padding: 5px;">
-            <summary style="cursor: pointer;"><u>Collection</u></summary>
-            <ul style="background-color: #fff; color: #000; list-style: none; padding: 0; margin: 0; border: 1px solid #ddd;">
-                <li><a href="index.html#boy-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Boy Dress</a></li>
-                <li><a href="index.html#girl-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Girl Dress</a></li>
-                <li><a href="index.html#new-arrival" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    New Arrival</a></li>
-                <li><a href="index.html#best-seller" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Best Seller</a></li>
-                <li><a href="index.html#toy" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Toy</a></li>
-            </ul>
-        </details>
+        <div class="dropdown">
+            <button class="dropbtn"><u>Collection</u></button>
+            <div class="dropdown-content">
+                <a href="#boy-dress">Boy Dress</a>
+                <a href="#girl-dress">Girl Dress</a>
+                <a href="#new-arrival">New Arrival</a>
+                <a href="#best-seller">Best Seller</a>
+                <a href="#toy">Toy</a>
+            </div>
+        </div>
+
         &nbsp; | &nbsp;
-        <a href="faqs.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">FAQs</a> &nbsp; | &nbsp;
-        <a href="contact.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Contact Us</a>
+        <a href="faqs.html"><u>FAQs</u></a> &nbsp; | &nbsp;
+        <a href="contact.html"><u>Contact Us</u></a>
     </nav>
 
-    <main style="padding: 30px; background-color: #c1c5c6;">
+    <main class="main-content">
         <section id="faqs">
             <h2>Frequently Asked Questions (FAQs)</h2>
 
@@ -170,8 +168,10 @@
         </section>
     </main>
 
-    <footer style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 10px;">
+    <footer>
         <p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
+
