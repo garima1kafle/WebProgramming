@@ -1,0 +1,68 @@
+/* faqs.css */
+
+/* Specific Styles for FAQ Page */
+#faqs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#faqs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.faq-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.faq-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.faq-table summary {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-table p {
+    margin: 10px 0 0;
+    text-align: left;
+}
+
+.faq-table a {
+    color: #007bff;
+    text-decoration: none;
+    text-align: left;
+}
+
+.faq-table a:hover {
+    text-decoration: underline;
+    text-align: left;
+}
+
+/* Adjusting header and footer for the FAQ page */
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 225, 225);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+}
+
