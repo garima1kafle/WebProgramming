@@ -240,6 +240,8 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 55px;
+    
 }
 
 .login-button:hover {
