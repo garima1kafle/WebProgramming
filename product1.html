@@ -8,68 +8,69 @@
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
     <!-- External CSS -->
     <link rel="stylesheet" href="collection.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div style="background-color: rgb(0, 0, 0); color: rgb(237, 225, 225); padding: 10px;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div style="display: flex; align-items: center;">
-                    <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" style="width: 2.5cm; height: 2.5cm; margin-right: 1%;">
-                    <h1 style="margin: 0;">Sana Sana Babu Nani Online Store</h1>
+        <div class="header-container">
+            <div class="header-flex">
+                <div class="logo-title">
+                    <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" class="logo">
+                    <h1>Sana Sana Babu Nani Online Store</h1>
                 </div>
-                <div style="display: flex; align-items: center;">
-                    <input type="text" id="search" name="search" placeholder="Search for products..." style="padding: 5px; width: 300px;">
-                    <button type="submit" style="padding: 5px 10px; margin-left: 10px;">Search</button>
-                    <nav style="color: rgb(255, 245, 245); padding-left: 10px;">
-                        <a href="login.html" style="color: rgb(255, 245, 245); margin-left: 10px;">Login</a> &nbsp; | &nbsp;
-                        <a href="carts.html" style="color: rgb(255, 245, 245);">My Carts</a>
+                <div class="search-login">
+                    <input type="text" id="search" name="search" placeholder="Search for products...">
+                    <button type="submit">Search</button>
+                    <nav>
+                        <a href="login.html">Login</a> &nbsp; | &nbsp;
+                        <a href="carts.html">My Carts</a>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
 
-    <nav style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245); padding: 10px;">
-        <a href="index.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Home</a> &nbsp; | &nbsp;
+    <nav class="main-nav">
+        <a href="index.html"><u>Home</u></a> &nbsp; | &nbsp;
 
         <!-- Collection Dropdown -->
-        <details style="display: inline-block; color: rgb(255, 245, 245); padding: 5px;">
-            <summary style="cursor: pointer;"><u>Collection</u></summary>
-            <ul style="background-color: #fff; color: #000; list-style: none; padding: 0; margin: 0; border: 1px solid #ddd;">
-                <li><a href="#boy-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Boy Dress</a></li>
-                <li><a href="#girl-dress" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Girl Dress</a></li>
-                <li><a href="#new-arrival" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    New Arrival</a></li>
-                <li><a href="#best-seller" style="color: #000; padding: 10px; display: block; text-decoration: none;">
-                    Best Seller</a></li>
-                <li><a href="#toy" style="color: #000; padding: 10px; display: block; text-decoration: none;">Toy</a></li>
-            </ul>
-        </details>
+        <div class="dropdown">
+            <button class="dropbtn"><u>Collection</u></button>
+            <div class="dropdown-content">
+                <a href="#boy-dress">Boy Dress</a>
+                <a href="#girl-dress">Girl Dress</a>
+                <a href="#new-arrival">New Arrival</a>
+                <a href="#best-seller">Best Seller</a>
+                <a href="#toy">Toy</a>
+            </div>
+        </div>
 
         &nbsp; | &nbsp;
-        <a href="faqs.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">FAQs</a> &nbsp; | &nbsp;
-        <a href="contact.html" style="background-color: rgb(50, 48, 49); color: rgb(255, 245, 245);">Contact Us</a>
+        <a href="faqs.html"><u>FAQs</u></a> &nbsp; | &nbsp;
+        <a href="contact.html"><u>Contact Us</u></a>
     </nav>
 
     <main style="padding: 10px; background-color: #c1c5c6;">
         <section id="product1">
-            <h2>Long Sleeve Baby Boy Girl Bodysuit Muslin Cotton Spring Autumn Kids Baby Rompers Clothes 0-24 
-                Months Infant Newborn Jumpsuit</h2>
-            <img src="Pictures/Dress.jpg" alt="Dress" style="width: 300px; height: 300px; margin-right: 20px;">
+            <h2>Long Sleeve Baby Boy Girl Bodysuit Muslin Cotton Spring 
+                Autumn Kids Baby Rompers Clothes 0-24 Months Infant Newborn Jumpsuit</h2>
+            <img src="Pictures/Dress.jpg" alt="Dress" 
+            style="width: 300px; height: 300px; margin-right: 20px;">
             <p>Price: Rs. 500</p>
             <button>Add to Cart</button>
             <br><br>
             <h3>Product Description</h3>
-            <p>This adorable and comfortable one-piece bodysuit is made of high-quality cotton, making it perfect for babies. 
-                The muslin cotton fabric is soft, breathable, and gentle on the baby's skin, ensuring comfort throughout the day.</p>
+            <p>This adorable and comfortable one-piece bodysuit is made of high-quality cotton, 
+                making it perfect for babies. The muslin cotton fabric is soft, breathable, 
+                and gentle on the baby's skin, ensuring comfort throughout the day.</p>
             <ul>
-                <li><u>High Quality Cotton:</u> These adorable and comfortable one-piece bodysuits are made of high-quality 
-                    cotton, so you can rest assured that we want to play with babies.</li>
-                <li><u>Perfect Decoration:</u> These cute baby pajamas sets are a perfect decoration for any occasion.</li>
-                <li><u>Shape Your Body:</u> It is not only a funny underwear for boys and girls but also a cute addition 
-                    to your girl's wardrobe.</li>
+                <li><u>High Quality Cotton:</u> These adorable and comfortable one-piece 
+                    bodysuits are made of high-quality cotton, so you can rest assured 
+                    that we want to play with babies.</li>
+                <li><u>Perfect Decoration:</u> These cute baby pajamas sets are a perfect 
+                    decoration for any occasion.</li>
+                <li><u>Shape Your Body:</u> It is not only a funny underwear for boys and 
+                    girls but also a cute addition to your girl's wardrobe.</li>
                 <li><u>Functional:</u> Make your baby more cute and fashionable.</li>
             </ul>
             <h3>Specifications</h3>
