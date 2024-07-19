@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Carts - Sana Sana Babu Nani Online Store</title>
+    <title>Register Account - Sana Sana Babu Nani Online Store</title>
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
     <header>
         <div class="header-container">
             <div class="header-flex">
@@ -59,23 +60,44 @@
         <a href="contact.html"><u>Contact Us</u></a>
     </nav>
 
-    <main class="main-content">
-        <h2>Your Shopping Cart</h2>
+    <main>
 
-        <!-- Check if user is logged in -->
-        <div id="cart-content">
-            <p>You need to <a href="login.html">log in</a> to view your cart.</p>
-        </div>
+    <div class="container">
+        <h2>Register Account</h2>
+        <form action="/submit_registration" method="POST">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
 
-        <br>
-        <br>
-        <br>
-        <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required pattern="\S+">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <button class="btn" type="submit">Register</button>
+        </form>
+    </div>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
     </footer>
+
+
+    <script src="search.js"></script>
 
 </body>
 

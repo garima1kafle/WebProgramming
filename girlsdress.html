@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Sana Sana Babu Nani Online Store</title>
+    <title>Sana Sana Babu Nani Online Store</title>
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
@@ -12,14 +11,10 @@
             padding: 0;
             }
     </style>
-    <!-- Favicon -->
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
         <div class="header-container">
             <div class="header-flex">
@@ -43,7 +38,6 @@
     <nav class="main-nav">
         <a href="index.html"><u>Home</u></a> &nbsp; | &nbsp;
 
-        <!-- Collection Dropdown -->
         <div class="dropdown">
             <button class="dropbtn"><u>Collection</u></button>
             <div class="dropdown-content">
@@ -60,35 +54,58 @@
         <a href="contact.html"><u>Contact Us</u></a>
     </nav>
 
-    <main class="main-content">
-        <h1>Login to Sana Sana Babu Nani Online Store</h1>
-        <form action="/login" method="post" class="login-form">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+    <main class="page">
+        
+
+        <section id="girlsdress">
+            <h2>Baby Girl Dress</h2>
+
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="Pictures/Dress.jpg" alt="Long Sleeve Baby Boy Girl Bodysuit">
+                    <p>Long Sleeve Baby Girl Bodysuit</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Socks.jpg" alt="Socks">
+                    <p>Girls Solid Knee-High Socks Stockings</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Girl trouser.jpg" alt="Girl Trouser">
+                    <p>Floral Size Small to Medium (7-8) Leggings</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://i5.walmartimages.com/seo/Baby-Boy-12-Months-4PC-Gentleman-T-Shirt-Baby-Bowtie-Cloth-Toddler-Wedding-Pants-Boy-Suit-Vest-Sets-Boys-Outfits-Set-Toddler-Name-Brand-Clothes_26a59edc-0c82-4bde-a4cc-9d4dc60a7947.5c479aa01216712be955870a094758db.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF" alt="Baby Boy 12 Months 4PC Gentleman T Shirt Baby Bowtie Cloth Toddler Wedding Pants Boy Suit Vest Sets Boys Outfits&Set Toddler Name Brand Clothes">
+                    <p>Image 4</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Boy Dress.jpg" alt="Image 5">
+                    <p>Image 5</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Dress.jpg" alt="Image 6">
+                    <p>Image 6</p>
+                </div>
             </div>
-            <br>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <br>
-            <div class="form-group">
-                <button type="submit" class="login-button">Login</button>
-            </div>
-        </form>
-        <p>
-            Don't have an account? <a href="register.html">Register here</a>.
-        </p>
+
+        </section>
+        
     </main>
 
-    <footer class="footer">
+    <footer>
         <p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
     </footer>
 
+    <div id="ad-popup">
+        <div class="ad-content">
+            <h2>Special Offer!</h2>
+            <p>Get 10% off on your first purchase. Order Now!</p>
+            <img src="Pictures/ads.png" alt="Special Offer">
+            <br><br>
+            <button id="close-ad-btn">Close</button>
+        </div>
+    </div>
 
+    <script src="ads.js"></script>
     <script src="search.js"></script>
-
 </body>
-
 </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Sana Babu Nani Online Store</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            }
+    </style>
+    <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-flex">
+                <div class="logo-title">
+                    <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" class="logo">
+                    <h1>Sana Sana Babu Nani Online Store</h1>
+                </div>
+                <div class="search-login">
+                    <input type="text" id="search" name="search" placeholder="Search for products...">
+                    <button type="submit">Search</button>
+                    <div id="search-suggestions" class="suggestions-dropdown"></div>
+                    <nav>
+                        <a href="login.html">Login</a> &nbsp; | &nbsp;
+                        <a href="carts.html">My Carts</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <a href="index.html"><u>Home</u></a> &nbsp; | &nbsp;
+
+        <div class="dropdown">
+            <button class="dropbtn"><u>Collection</u></button>
+            <div class="dropdown-content">
+                <a href="#boy-dress">Boy Dress</a>
+                <a href="#girl-dress">Girl Dress</a>
+                <a href="#new-arrival">New Arrival</a>
+                <a href="#best-seller">Best Seller</a>
+                <a href="#toy">Toy</a>
+            </div>
+        </div>
+
+        &nbsp; | &nbsp;
+        <a href="faqs.html"><u>FAQs</u></a> &nbsp; | &nbsp;
+        <a href="contact.html"><u>Contact Us</u></a>
+    </nav>
+
+    <main class="page">
+        
+
+        <section id="boysdress">
+            <h2>Baby Boy Dress</h2>
+
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/71E3nNRe1uL._AC_UL1500_.jpg" alt="Boydress1">
+                    <p>Infant Baby Boy Clothes Gentleman Outfits Suits Summer Short Sleeve Bowtie Bodysuit Shirts + Suspender Shorts</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://www.lamaisondumonogramme.com/cdn/shop/products/la-maison-du-monogramme-embroidered-blue-baby-boy-coming-home-outfit-31552823623831_900x.jpg?v=1627983172" alt="Image 2">
+                    <p>Newborn Baby Boy White Coming Home Outfit With Full Name Blue Embroidery</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://s.alicdn.com/@sc04/kf/He248d5df55b5442684fcfcf3b96c5882n.png_720x720q50.png" alt="Image 3">
+                    <p>Autumn And Winter Boys' Clothing Suit Thick Wool Cartoon Bear Jacket Vest Pants 3pcs Cotton Girls Sports Suit Warm</p>
+                </div>
+
+                </div>
+                <div class="image-container">
+                <div class="image-item">
+                    <img src="https://i5.walmartimages.com/seo/Baby-Boy-12-Months-4PC-Gentleman-T-Shirt-Baby-Bowtie-Cloth-Toddler-Wedding-Pants-Boy-Suit-Vest-Sets-Boys-Outfits-Set-Toddler-Name-Brand-Clothes_26a59edc-0c82-4bde-a4cc-9d4dc60a7947.5c479aa01216712be955870a094758db.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF" 
+                    alt="Baby Boy 12 Months 4PC Gentleman T Shirt Baby Bowtie Cloth Toddler Wedding Pants Boy Suit Vest Sets Boys Outfits&Set Toddler Name Brand Clothes">
+                    <p>Image 4</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Boy Dress.jpg" alt="Image 5">
+                    <p>Image 5</p>
+                </div>
+                <div class="image-item">
+                    <img src="Pictures/Dress.jpg" alt="Image 6">
+                    <p>Image 6</p>
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sana Sana Babu Nani Online Store. All rights reserved.</p>
+    </footer>
+
+    <div id="ad-popup">
+        <div class="ad-content">
+            <h2>Special Offer!</h2>
+            <p>Get 10% off on your first purchase. Order Now!</p>
+            <img src="Pictures/ads.png" alt="Special Offer">
+            <br><br>
+            <button id="close-ad-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="ads.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

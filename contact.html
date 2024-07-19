@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Sana Sana Babu Nani Online Store</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            }
+    </style>
     <!-- Favicon -->
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
     <!-- External CSS -->
-    <link rel="stylesheet" href="collection.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css"> <!-- Add specific styles for the contact page -->
 </head>
 <body>
     <header class="header-container">
@@ -19,10 +24,10 @@
                 <h1>Sana Sana Babu Nani Online Store</h1>
             </div>
             <div class="search-login">
-                <input type="text" id="search" name="search" 
-                placeholder="Search for products..." class="search-box">
-                <button type="submit" class="search-button">Search</button>
-                <nav class="nav-links">
+                <input type="text" id="search" name="search" placeholder="Search for products...">
+                <button type="submit">Search</button>
+                <div id="search-suggestions" class="suggestions-dropdown"></div>
+                <nav>
                     <a href="login.html">Login</a> &nbsp; | &nbsp;
                     <a href="carts.html">My Carts</a>
                 </nav>
@@ -51,83 +56,36 @@
     </nav>
 
     <main>
-        <section id="contact">
-            <h2>Contact Us</h2>
+        <div id="contact">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="/submit-form" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+    
+                        <button class="contactbtn" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="location">
+                    <h2>Our Location</h2>
+                    <p>Basundhara, Kathmandu<br><br>Opening Hours:
+                    <ul>
+                        <li>Monday - Friday: 7AM - 7PM</li>
+                        <li>Saturday: 9AM - 5PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul></p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.0919036988043!2d85.336151!3d27.7453112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19002f2fb05f%3A0x693b69cc714ec66c!2sSneha%20Colony%20Srijanshil%20tol%20basundhara!5e0!3m2!1sen!2snp!4v1721204550995!5m2!1sen!2snp" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
             
-            <!-- Welcome Message -->
-            <p>Welcome to the Contact Us page! 
-                We are here to assist you with any questions or concerns you might have. 
-                Please reach out to us through any of the methods listed below, 
-                and we will get back to you as soon as possible.</p>
-            
-            <h3>Contact Form</h3>
-            <p>If you have any inquiries, please fill out the form below 
-                and we will get back to you within 24 hours.</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-                <label for="phone">Phone (optional):</label>
-                <input type="tel" id="phone" name="phone">
-                <br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <br><br>
-                <button type="submit">Send</button>
-            </form>
-            
-            <br> <!-- Break between form and location -->
-
-            <!-- Location Information -->
-            <h3>Our Location</h3>
-            <p>Visit us at:</p>
-            <p><strong>Basundhara, Kathmandu</strong></p>
-            <p>We'd love to see you! Feel free to drop by during our working hours.</p>
-            <a href="https://maps.app.goo.gl/ggCarvpb4oriXfKt7?g_st=ic" 
-            target="_blank"><img src="Pictures/Location.jpg" 
-            alt="Location Map" class="location-map"></a>
-            <br><br>
-        
-            <p>Opening Hours:</p>
-            <ul>
-                <li>Monday - Friday: 7AM - 7PM</li>
-                <li>Saturday: 9AM - 5PM</li>
-                <li>Sunday: Closed</li>
-            </ul>
-
-            <br> <!-- Break between location and additional contact details -->
-
-            <!-- Additional Contact Details -->
-            <h3>Additional Contact Information</h3>
-            <p>If you need immediate assistance, please contact us using the information below:</p>
-            <table class="contact-info-table">
-                <tr>
-                    <td><strong>Phone:</strong></td>
-                    <td><a href="tel:+977-123456789">+977-123456789</a></td>
-                </tr>
-                <tr>
-                    <td><strong>Email:</strong></td>
-                    <td><a href="mailto:info@ssbnos.com">info@ssbnos.com</a></td>
-                </tr>
-                <tr>
-                    <td><strong>Customer Support:</strong></td>
-                    <td><a href="mailto:support@ssbnos.com">support@ssbnos.com</a></td>
-                </tr>
-                <tr>
-                    <td><strong>Follow Us:</strong></td>
-                    <td>
-                        <a href="https://www.facebook.com/profile.php?id=61560090484375&mibextid=LQQJ4d" 
-                        target="_blank">
-                            Facebook</a> | 
-                        <a href="https://www.instagram.com/ssbnos" target="_blank">Instagram</a> | 
-                        <a href="https://twitter.com/ssbnos" target="_blank">Twitter</a>
-                    </td>
-                </tr>
-            </table>
-        </section>
     </main>
 
     <footer>

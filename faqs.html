@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQs - Sana Sana Babu Nani Online Store</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            }
+    </style>
     <!-- Favicon -->
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
     <!-- External CSS -->
-    <link rel="stylesheet" href="collection.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="faqs.css"> <!-- Add specific styles for the FAQ page -->
 </head>
 
 <body>
@@ -21,10 +26,10 @@
                 <h1>Sana Sana Babu Nani Online Store</h1>
             </div>
             <div class="search-login">
-                <input type="text" id="search" name="search" 
-                placeholder="Search for products..." class="search-box">
-                <button type="submit" class="search-button">Search</button>
-                <nav class="nav-links">
+                <input type="text" id="search" name="search" placeholder="Search for products...">
+                <button type="submit">Search</button>
+                <div id="search-suggestions" class="suggestions-dropdown"></div>
+                <nav>
                     <a href="login.html">Login</a> &nbsp; | &nbsp;
                     <a href="carts.html">My Carts</a>
                 </nav>
