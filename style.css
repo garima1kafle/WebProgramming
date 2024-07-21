@@ -219,7 +219,7 @@ main {
 }
 
 .product button:hover {
-    background-color: #0056b3;
+    background-color: #919498;
 }
 .see-more {
     text-align: center;
@@ -234,6 +234,10 @@ main {
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
+}
+
+.see-more a:hover {
+    background-color: #045bb8;
 }
 
 /* Ad Popup Styles */
@@ -256,13 +260,11 @@ main {
     padding: 10px;
     width: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
 }
 
 #ad-popup img {
     width: 70%;
     height: 400px;
-    border-radius: 8px;
 }
 
 #close-ad-btn {
@@ -300,7 +302,7 @@ main {
 
 .login-button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -310,7 +312,7 @@ main {
 }
 
 .login-button:hover {
-    background-color: #45a049;
+    background-color: #045bb8;
 }
 
 /* Specific Main Content for Login Page */
@@ -380,7 +382,7 @@ input {
 
 .btn {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 4px;
@@ -389,7 +391,7 @@ input {
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #045bb8;
 }
 
 .image-container {
@@ -543,7 +545,7 @@ input, textarea {
 }
 
 .contactbtn {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -553,7 +555,7 @@ input, textarea {
 }
 
 .contactbtn:hover {
-    background-color: #2b692d;
+    background-color: #045bb8;
 }
 
 .location-map {
@@ -619,6 +621,9 @@ input, textarea {
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
+}
+.slide_background {
+    background-color: rgba(0, 0, 0, 0.957);
 }
 
 .slider_container {
@@ -722,12 +727,14 @@ input, textarea {
     margin-bottom: 10px;
 }
 
+.product-background {
+    height: 40rem;
+    background-color: rgba(0, 0, 0, 0.957);
+}
 .product-image {
     width: 60%;
     height: 40rem;
     margin-left: 20%;
-    border-radius: 8px;
-    padding: 10px;
 }
 
 .add-to-cart-btn {
