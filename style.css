@@ -1,5 +1,12 @@
 /*For all pages/
 
+/*General Styles*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    }
+
 /* Header Styles */
 .header-container {
     background-color: rgb(0, 0, 0);
@@ -775,3 +782,5 @@ input, textarea {
     border: 1px solid #ddd;
     font-size: 16px;
 }
+
+/*Media Queries on Ads Popup*/
