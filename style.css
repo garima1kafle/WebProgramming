@@ -784,3 +784,83 @@ input, textarea {
 }
 
 /*For mobile responsive design*/
+
+.menu-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+/* Responsive design for mobile */
+@media only screen and (max-width: 768px) {
+    .header-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-title h1 {
+        font-size: 20px;
+    }
+
+    .search-login {
+        flex-direction: column;
+    }
+
+    .search-login input,
+    .search-login button {
+        width: 30%;
+        margin: 5px 0;
+        justify-content: center;
+    }
+
+    .main-nav {
+        display: none; /* Hide the navigation menu */
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: flex; /* Show the hamburger menu */
+    }
+
+    /* Show the main navigation when the hamburger menu is clicked */
+    .menu-toggle:checked + .hamburger-menu + .main-nav {
+        display: flex;
+    }
+
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .see-more {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+
+    .ad-content {
+        width: 90%;
+    }
+}
