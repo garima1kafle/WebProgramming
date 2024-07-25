@@ -793,6 +793,7 @@ input, textarea {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    margin: 4px 5px;
 }
 
 .hamburger-menu span {
@@ -800,6 +801,7 @@ input, textarea {
     height: 3px;
     background-color: black;
     margin: 4px 0;
+    
 }
 
 /* Responsive design for mobile */
@@ -822,7 +824,7 @@ input, textarea {
         margin: 5px 0;
         justify-content: center;
     }
-    
+
     .search-login button {
         width: 30%;
         margin: 5px 0;
