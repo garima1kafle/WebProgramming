@@ -817,7 +817,12 @@ input, textarea {
         flex-direction: column;
     }
 
-    .search-login input,
+    .search-login input {
+        width: 30%;
+        margin: 5px 0;
+        justify-content: center;
+    }
+    
     .search-login button {
         width: 30%;
         margin: 5px 0;
