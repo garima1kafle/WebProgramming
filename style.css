@@ -55,11 +55,11 @@ button {
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 4px;
-    background-color: #cfd0d1;
+    background-color: #007bff;
 }
 
 button:hover {
-    background-color: #adb0b4;
+    background-color: #045bb8;
 }
 
 nav a {
