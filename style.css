@@ -55,11 +55,10 @@ button {
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 4px;
-    background-color: #007bff;
 }
 
 button:hover {
-    background-color: #045bb8;
+    background-color: #cfd0d1;
 }
 
 nav a {
@@ -823,6 +822,14 @@ input, textarea {
         width: 30%;
         margin: 5px 0;
         justify-content: center;
+    }
+
+    button {
+        background-color: #007bff;
+    }
+    
+    button:hover {
+        background-color: #045bb8;
     }
 
     .main-nav {
