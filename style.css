@@ -824,11 +824,11 @@ input, textarea {
         justify-content: center;
     }
 
-    button {
+    .search-login button {
         background-color: #007bff;
     }
     
-    button:hover {
+    .search-login button:hover {
         background-color: #045bb8;
     }
 
@@ -845,6 +845,7 @@ input, textarea {
     }
 
     .hamburger-menu {
+        padding-left: 5px;
         display: flex; /* Show the hamburger menu */
     }
 
