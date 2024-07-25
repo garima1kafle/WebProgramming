@@ -822,9 +822,6 @@ input, textarea {
         width: 30%;
         margin: 5px 0;
         justify-content: center;
-    }
-
-    .search-login button {
         background-color: #007bff;
     }
     
