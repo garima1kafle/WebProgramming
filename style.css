@@ -807,6 +807,10 @@ input, textarea {
     
 }
 
+.separator {
+    display: inline; /* Default display */
+  }
+
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
     .header-flex {
@@ -919,5 +923,9 @@ input, textarea {
     #cart-content {
         margin-top: 50px;
     }
+
+    .separator {
+        display: none; /* Hide the pipe character */
+      }
 
 }
