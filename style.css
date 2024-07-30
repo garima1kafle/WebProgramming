@@ -636,6 +636,7 @@ input, textarea {
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
+
 .slide_background {
     background-color: rgba(0, 0, 0, 0.957);
 }
@@ -945,5 +946,59 @@ input, textarea {
         width: 100%;
         height: auto;
       }
+    
 
+      .slide_background {
+        width: 100%;
+        height: 440px;
+    }
+    
+    .slider_container {
+        width: 90%;
+        height: 100%;
+        padding-top: 0;
+        margin: 0 5%;
+      }
+
+        .slider {
+            width: 300%;
+            height: 50%;
+        }
+
+        .slide {
+            min-width: 100%;
+            height: 100%;
+        }
+        
+        .slide img {
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+        }
+
+        .slide.one {
+            width: 100%;
+            height: 400px;
+            
+        }
+        
+        .slide.two {
+            width: 100%;
+            height: 400px;
+        }
+
+        .slide.three {
+            width: 100%;
+            height: 400px;
+        }
+
+        .slide.four {
+            width: 100%;
+            height: 400px;
+        }
+        
+        .slide.five {
+            width: 100%;
+            height: 400px;
+        }
 }
