@@ -903,4 +903,14 @@ input, textarea {
         margin: 20px 35px;
     }
 
+    .main-content {
+        margin: 30px;
+    }
+
+    #cart-content {
+        padding: 40px;
+        max-width: 600px;
+        margin: 40px auto;
+    }
+
 }
