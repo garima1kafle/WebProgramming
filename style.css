@@ -928,4 +928,22 @@ input, textarea {
         display: none; /* Hide the pipe character */
       }
 
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .contact-form {
+        order: 1;
+      }
+      
+      .location {
+        order: 2;
+      }
+
+      .location iframe {
+        width: 100%;
+        height: auto;
+      }
+
 }
