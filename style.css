@@ -911,7 +911,11 @@ input, textarea {
     }
 
     .main-content {
-        margin: 30px;
+        margin-top: 5px;
+    }
+
+    #cart-content {
+        margin-top: 80px;
     }
 
 }
