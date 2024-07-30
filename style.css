@@ -879,7 +879,13 @@ input, textarea {
 
 
     .ad-content {
+        margin-top: 40px;
         width: 90%;
+    }
+
+    #ad-popup img {
+        width: 70%;
+        height: 300px;
     }
 
     footer {
