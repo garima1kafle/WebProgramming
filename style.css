@@ -905,14 +905,19 @@ input, textarea {
 
 
     #cart-content {
-        padding: 40px;
+        padding: 70px;
         max-width: 600px;
         margin: 40px auto;
     }
 
+    .main-content {
+        padding-top: 30px;
+    }
+
+
 
     #cart-content {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
 }
