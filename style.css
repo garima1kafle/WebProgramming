@@ -901,22 +901,13 @@ input, textarea {
 
     .container {
         margin: 20px 35px;
-        display: flex;
     }
 
-    .main-content {
-        margin: 30px;
-    }
 
     #cart-content {
         padding: 40px;
         max-width: 600px;
         margin: 40px auto;
-    }
-
-    .main-content {
-        display: flex;
-        flex-direction: column;
     }
 
 }
