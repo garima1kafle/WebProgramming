@@ -950,7 +950,7 @@ input, textarea {
 
       .slide_background {
         width: 100%;
-        height: 400px;
+        height: 350px;
     }
     
     .slider_container {
@@ -958,6 +958,7 @@ input, textarea {
         height: 100%;
         padding-top: 0;
         margin: 0 5%;
+        padding-bottom: 0;
       }
 
         .slider {
@@ -969,7 +970,9 @@ input, textarea {
             min-width: 100%;
             height: 100%;
         }
-        
+        .slide .caption {
+            bottom: 8%;
+        }
         .slide img {
             width: 100%;
             height: 100%;
@@ -978,28 +981,28 @@ input, textarea {
 
         .slide.one {
             width: 100%;
-            height: 400px;
+            height: 350px;
             
         }
         
         .slide.two {
             width: 100%;
-            height: 400px;
+            height: 350px;
         }
 
         .slide.three {
             width: 100%;
-            height: 400px;
+            height: 350px;
         }
 
         .slide.four {
             width: 100%;
-            height: 400px;
+            height: 350px;
         }
         
         .slide.five {
             width: 100%;
-            height: 400px;
+            height: 350px;
         }
 
     
