@@ -868,6 +868,7 @@ input, textarea {
     .menu-toggle:checked + .hamburger-menu + .main-nav {
         display: flex;
     }
+    
 
     .products-container {
         flex-direction: column;
