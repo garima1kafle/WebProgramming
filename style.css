@@ -952,58 +952,47 @@ input, textarea {
         width: 100%;
         height: 300px;
     }
-    
+
     .slider_container {
         width: 90%;
         height: 100%;
         padding-top: 0;
         margin: 0 5%;
         padding-bottom: 0;
-      }
+    }
 
-        .slider {
-            width: 300%;
-            height: 50%;
-        }
+    .slider {
+        width: 300%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+    }
 
-        .slide {
-            min-width: 100%;
-            height: 100%;
-        }
-        .slide .caption {
-            bottom: 8%;
-        }
-        .slide img {
-            width: 100%;
-            height: 100%;
-            opacity: 0.8;
-        }
+    .slide {
+        min-width: 100%;
+        height: 100%;
+    }
 
-        .slide.one {
-            width: 100%;
-            height: 350px;
-            
-        }
-        
-        .slide.two {
-            width: 100%;
-            height: 350px;
-        }
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the slide without stretching */
+        opacity: 0.8;
+    }
 
-        .slide.three {
-            width: 100%;
-            height: 350px;
-        }
+    .slide .caption {
+        bottom: 8%;
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 0.5rem 3rem; /* Adjust padding for smaller screens */
+    }
 
-        .slide.four {
-            width: 100%;
-            height: 350px;
-        }
-        
-        .slide.five {
-            width: 100%;
-            height: 350px;
-        }
+    .slide.one, .slide.two, .slide.three, .slide.four, .slide.five {
+        width: 100%;
+        height: 300px; /* Ensure consistent height on mobile */
+    }
 
     
         .image-container {
