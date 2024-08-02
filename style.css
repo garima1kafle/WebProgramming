@@ -1010,6 +1010,12 @@ input, textarea {
 
           .rate {
             justify-content: center; /* Center the star icons horizontally */
+            align-items: center; /* Center the star icons vertically */
+            margin: 15px 0; /* Adjust margin for better spacing on mobile */
+        }
+    
+        .rate > label {
+            font-size: 24px; /* Adjust font size for mobile */
         }
     
     
