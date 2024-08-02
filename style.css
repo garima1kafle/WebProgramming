@@ -1019,4 +1019,17 @@ input, textarea {
         }
     
     
+    
+        .product-background {
+            height: auto; /* Adjust height automatically */
+            padding: 0 5%; /* Add padding on the left and right */
+        }
+    
+        .product-image {
+            width: 90%; /* Make the image fit within the container */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the image */
+            display: block;
+        }
+    
 }
