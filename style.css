@@ -601,10 +601,11 @@ input, textarea {
 
 
 .rate {
-    float: left;
+    display: flex;
+    justify-content: center; /* Center the star icons horizontally */
     height: 46px;
     padding: 0 10px;
-    margin-left: 50px;
+    margin: 10px 0; /* Adjust margin for better spacing */
 }
 .rate:not(:checked) > input {
     position:absolute;
@@ -1005,5 +1006,11 @@ input, textarea {
           .image-item {
             margin: 20px;
           }
-        
+
+
+          .rate {
+            justify-content: center; /* Center the star icons horizontally */
+        }
+    
+    
 }
