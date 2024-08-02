@@ -880,7 +880,7 @@ input, textarea {
 
     .product img {
         width: 100%; /* Full width of the product container */
-        height: 320px;
+        height: 310px;
     }
 
     .see-more {
@@ -1032,7 +1032,7 @@ input, textarea {
     
         .product-image {
             width: 90%; /* Make the image fit within the container */
-            height: 330px; /* Maintain aspect ratio */
+            height: 320px; /* Maintain aspect ratio */
             margin: 0 auto; /* Center the image */
             display: block;
         }
