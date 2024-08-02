@@ -1032,7 +1032,7 @@ input, textarea {
     
         .product-image {
             width: 90%; /* Make the image fit within the container */
-            height: auto; /* Maintain aspect ratio */
+            height: 330px; /* Maintain aspect ratio */
             margin: 0 auto; /* Center the image */
             display: block;
         }
