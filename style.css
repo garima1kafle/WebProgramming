@@ -49,6 +49,7 @@ body {
     position: relative;
     padding-right: 10px;
     color: #000;
+    gap: 2px;
 }
 
 #search {
@@ -57,17 +58,12 @@ body {
 
 }
 
-button {
-    padding: 5px 10px;
-    margin-left: 10px;
-    border-radius: 4px;
-    background-color: #b3b6ba;
+nav {
+    padding-right: 10px;
 }
 
-button:hover {
-    background-color: #86898c;
-    color: #000;
-}
+
+
 
 nav a {
     color: rgb(255, 245, 245);
@@ -407,7 +403,7 @@ input {
     border-radius: 4px;
 }
 
-.btn {
+.btnp {
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -417,7 +413,7 @@ input {
     margin-left: 0px;
 }
 
-.btn:hover {
+.btnp:hover {
     background-color: #045bb8;
 }
 
@@ -662,7 +658,7 @@ input, textarea {
 .slider_id {
     position: relative;
     width: 80%;
-    height: 40rem;
+    height: 60rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -671,7 +667,7 @@ input, textarea {
   }
   .slider {
     position: relative;
-    width: 400%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
