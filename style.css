@@ -648,12 +648,13 @@ input, textarea {
 
 .slide_background {
     background-color: rgba(0, 0, 0, 0.957);
+    height: 70rem;
 }
 
 .slider_id {
     position: relative;
     width: 80%;
-    height: 60rem;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
