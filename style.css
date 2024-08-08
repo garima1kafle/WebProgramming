@@ -48,12 +48,12 @@ body {
     align-items: center;
     position: relative;
     padding-right: 10px;
+    color: #000;
 }
 
 #search {
     padding: 5px;
     width: 300px;
-    color: #000;
 
 }
 
@@ -61,8 +61,7 @@ button {
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 4px;
-    color: #000;
-    background-color: #919498;
+    background-color: #b3b6ba;
 }
 
 button:hover {
