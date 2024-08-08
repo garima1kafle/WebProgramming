@@ -30,8 +30,8 @@
                     <div id="search-suggestions" class="suggestions-dropdown"></div>&nbsp;
                     <nav>
                         <div class="nav navbar-nav navbar-right">
-                            <a href="login.html"><span class="glyphicon glyphicon-user"></span></a> &nbsp;
-                            <a href="carts.html"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge">0</span></a>&nbsp;
+                            <a href="#"><span class="glyphicon glyphicon-user"></span></a> &nbsp;
+                            <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge">0</span></a>&nbsp;
                         </div>
 
                     </nav>
@@ -40,31 +40,36 @@
         </div>
 
 
-        <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
-    <label for="menu-toggle" class="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
 
-
-
-    <nav class="main-nav">
-        <a href="index.html"><u>Home</u></a> &nbsp; <li class="separator">|</li>
-        <div class="dropdown">
-            <button class="dropbtn"><u>Collection</u></button>
-            <div class="dropdown-content">
-                <a href="boysdress.html">Boy Dress</a>
-                <a href="girlsdress.html">Girl Dress</a>
-                <a href="newarrival.html">New Arrival</a>
-                <a href="bestseller.html">Best Seller</a>
-                <a href="toy.html">Toy</a>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Collection<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="boysdress.html">Boy Dress</a></li>
+                      <li><a href="girlsdress.html">Girl Dress</a></li>
+                      <li><a href="newarrival.html">New Arrival</a></a></li>
+                      <li><a href="bestseller.html">Best Seller</a></li>
+                      <li><a href="toy.html">Toy</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Contact-Us</a></li>
+                </ul>
+              </div>
             </div>
-        </div>
-        &nbsp; <li class="separator">|</li> &nbsp;
-        <a href="faqs.html"><u>FAQs</u></a> &nbsp; <li class="separator">|</li> &nbsp;
-        <a href="contact.html"><u>Contact Us</u></a>
-    </nav>
+          </nav>
+
     </header>
 
     <main class="page">
@@ -216,10 +221,10 @@
                     <button id="add-to-cart-4">Add to Cart</button>
             </div>
 
+           <div class="button-container">
+    <button type="button" class="btn btn-primary">See More</button>
+</div>
 
-            <div class="see-more">
-                <a href="seemore.html">See More</a>
-            </div>
         </section>
         
     </main>
