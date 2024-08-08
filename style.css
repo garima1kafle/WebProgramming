@@ -13,6 +13,7 @@ body {
 
 /* Header Styles */
 .header-container {
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(0, 0, 0);
     color: rgb(237, 225, 225);
     padding: 0px;
@@ -52,17 +53,21 @@ body {
 #search {
     padding: 5px;
     width: 300px;
-    margin-bottom: 4px;
+    color: #000;
+
 }
 
 button {
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 4px;
+    color: #000;
+    background-color: #919498;
 }
 
 button:hover {
-    background-color: #cfd0d1;
+    background-color: #86898c;
+    color: #000;
 }
 
 nav a {
@@ -194,8 +199,15 @@ footer {
     margin-top: auto;
 }
 
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
 /* Home Page Styles */
 main {
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     background-color: #c1c5c6;
 }
@@ -378,6 +390,8 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -443,6 +457,10 @@ input {
 
 .page {
     padding-bottom: 100px;
+}
+
+.page h2 {
+    font-size: 26px;
 }
 
 /* faqs.css */
@@ -642,7 +660,7 @@ input, textarea {
     background-color: rgba(0, 0, 0, 0.957);
 }
 
-.slider_container {
+.slider_id {
     position: relative;
     width: 80%;
     height: 40rem;
@@ -769,6 +787,10 @@ input, textarea {
 .product-details h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
 }
 
 .product-details p, .product-details ul {
