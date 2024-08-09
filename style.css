@@ -358,6 +358,10 @@ input {
     font-size: 26px;
 }
 
+.main-content h2 {
+    font-size: 26px;
+}
+
 .panel-heading .glyphicon {
     transform: rotate(180deg);
     transition: transform 0.3s ease-in-out;
