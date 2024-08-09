@@ -310,7 +310,7 @@ input {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    margin: 0 46.5%;
+    margin: 0 43%;
 }
 
 
@@ -717,7 +717,7 @@ input, textarea {
 
     .product {
         width: 80%;
-        margin-right: 45px;
+        margin-right: 23px;
     }
 
     .product img {
