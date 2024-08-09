@@ -63,8 +63,6 @@ nav {
 }
 
 
-
-
 nav a {
     color: rgb(255, 245, 245);
     margin-left: 10px;
@@ -99,9 +97,7 @@ nav a {
 }
 
 /* Specific Styles for all pages */
-header #search,
-header .search-login button,
-header nav a {
+header #search {
     font-size: auto; /* Increase font size */
     font-family: 'Times New Roman', Times, serif;
 }
@@ -109,24 +105,7 @@ header nav a {
 header nav a {
     font-size: 18px; /* Increase font size */
     font-family: 'Times New Roman', Times, serif;
-}
-
-/* Main Navigation Styles */
-.main-nav {
-    background-color: rgb(50, 48, 49);
-    color: rgb(255, 245, 245);
-    padding: 10px;
-}
-
-.main-nav a {
-    background-color: rgb(50, 48, 49);
-    color: rgb(255, 245, 245);
-    text-decoration: none;
-}
-
-
-
-  
+} 
 
 /* Footer Styles */
 footer {
@@ -728,30 +707,6 @@ input, textarea {
     font-size: 16px;
 }
 
-/*For mobile responsive design*/
-
-.menu-toggle {
-    display: none; /* Hide the checkbox */
-}
-
-.hamburger-menu {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    margin: 4px 5px;
-}
-
-.hamburger-menu span {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 4px 0;
-    
-}
-
-.separator {
-    display: inline; /* Default display */
-  }
 
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
@@ -774,41 +729,6 @@ input, textarea {
         justify-content: center;
     }
 
-    .search-login button {
-        width: 30%;
-        margin: 5px 0;
-        justify-content: center;
-        background-color: #007bff;
-    }
-    
-    .search-login button:hover {
-        background-color: #045bb8;
-    }
-
-    .main-nav {
-        display: none; /* Hide the navigation menu */
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-
-    .main-nav a {
-        display: block;
-        padding: 10px 0;
-    }
-
-    .hamburger-menu {
-        padding-left: 5px;
-        display: flex; /* Show the hamburger menu */
-        background-color: #ffffff;
-        margin: 0;
-    }
-
-    /* Show the main navigation when the hamburger menu is clicked */
-    .menu-toggle:checked + .hamburger-menu + .main-nav {
-        display: flex;
-    }
-    
 
     .products-container {
         flex-direction: column;
@@ -866,10 +786,6 @@ input, textarea {
     #cart-content {
         margin-top: 50px;
     }
-
-    .separator {
-        display: none; /* Hide the pipe character */
-      }
 
       .contact-container {
         display: flex;
