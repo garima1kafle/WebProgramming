@@ -717,6 +717,7 @@ input, textarea {
 
     .product {
         width: 80%;
+        margin-right: 45px;
     }
 
     .product img {
