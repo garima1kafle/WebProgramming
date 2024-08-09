@@ -14,10 +14,6 @@ body {
 
 /* Header Styles */
 
-header {
-    height: 150px;
-}
-
 .header-container {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(0, 0, 0);
@@ -29,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo-title {
@@ -692,9 +689,6 @@ input, textarea {
 
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
-    header {
-        height: 287px;
-    }
 
     .header-flex {
         flex-direction: column;
