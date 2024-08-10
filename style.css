@@ -764,6 +764,7 @@ input, textarea {
     .login-form {
         margin-left:40%;
         margin-top: 40px;
+        padding: 20px 30px;
     }
 
     .main-content {
