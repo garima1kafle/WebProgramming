@@ -173,6 +173,7 @@ main {
     color: #fff;
     text-align: center;
     display: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .ad-content {
@@ -182,6 +183,10 @@ main {
     padding: 10px;
     width: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ad-content p {
+    font-size: 18px;
 }
 
 #ad-popup img {
