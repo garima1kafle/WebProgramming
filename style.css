@@ -656,19 +656,6 @@ input, textarea {
     margin-left: 20%;
 }
 
-.add-to-cart-btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.add-to-cart-btn:hover {
-    background-color: #0056b3;
-}
-
 .product-details h3 {
     margin-top: 20px;
     margin-bottom: 10px;
