@@ -220,11 +220,14 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     text-align: left;
+    margin-left: 40%;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.form-p {
+    text-align: center;
+    font-size: 16px;
 }
+
 
 .form-group label {
     display: block;
@@ -403,7 +406,12 @@ input {
     background-color: #c1c5c6; /* Match background color to body */
     padding: 20px; /* Add padding for spacing inside the main content */
     margin: 0; /* Remove margin to avoid gaps */
-    min-height: calc(100vh - 120px); /* Adjust height to ensure it covers the page, accounting for header and footer height */
+    min-height: calc(90vh - 120px); /* Adjust height to ensure it covers the page, accounting for header and footer height */
+}
+
+.main-content h2 {
+    font-size: 26px;
+    text-align: center;
 }
 
 
@@ -763,13 +771,17 @@ input, textarea {
         margin-top: auto;
     }
 
-    .login-button {
-        text-align: center;
-        margin: 0 50px;
-    }
-
     .form-page {
         margin: 20px 50px;
+    }
+
+    .login-form {
+        margin-left:20%;
+        margin-top: 40px;
+    }
+
+    .main-content {
+        min-height: calc(76vh - 120px);
     }
 
 
