@@ -280,6 +280,23 @@ main {
     margin-top: 40px;
 }
 
+/*Register*/
+
+.form-page {
+    background-color: white;
+    padding: 20px;
+    padding-left: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: block;
+    margin: 20px 450px;
+}
+
+.form-page h2 {
+    font-size: 26px;
+    text-align: center;
+}
 
 
 form {
@@ -303,6 +320,13 @@ input {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin: 0 46.5%;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 43%;
 }
 
 
@@ -342,7 +366,7 @@ input {
 
 .page h2 {
     font-size: 26px;
-    text-align: center;
+    text-align: centeryy;
 }
 
 .main-content h2 {
@@ -744,8 +768,8 @@ input, textarea {
         margin: 0 50px;
     }
 
-    .container {
-        margin: 20px 35px;
+    .form-page {
+        margin: 20px 57px;
     }
 
 
