@@ -128,6 +128,12 @@ footer p {
 }
 
 /* Home Page Styles */
+
+header {
+    margin-bottom: -20px;
+}
+
+
 main {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
