@@ -766,7 +766,13 @@ input, textarea {
         align-items: center;
         justify-content: center;
         display: flex;
+        padding-left: 2px;
     }
+
+    .form-group input {
+        width: 110%;
+    }
+    
 
     .main-content {
         min-height: calc(76vh - 120px);
