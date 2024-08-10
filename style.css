@@ -647,12 +647,12 @@ input, textarea {
 }
 
 .product-background {
-    height: 40rem;
+    height: 60rem;
     background-color: rgba(0, 0, 0, 0.957);
 }
 .product-image {
     width: 60%;
-    height: 40rem;
+    height: 60rem;
     margin-left: 20%;
 }
 
