@@ -240,20 +240,6 @@ main {
     box-sizing: border-box;
 }
 
-.login-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-left: 55px;
-}
-
-.login-button:hover {
-    background-color: #045bb8;
-}
-
 
 /* carts.css */
 
@@ -776,7 +762,7 @@ input, textarea {
     }
 
     .login-form {
-        margin-left:20%;
+        margin-left:40%;
         margin-top: 40px;
     }
 
