@@ -9,51 +9,68 @@
     <link rel="icon" href="Pictures/SSBNOS Logo.png" type="image/png">
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
+<!--Bootsrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-    <header>
-        <div class="header-container">
-            <div class="header-flex">
-                <div class="logo-title">
-                    <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" class="logo">
-                    <h1>Sana Sana Babu Nani Online Store</h1>
-                </div>
-                <div class="search-login">
-                    <input type="text" id="search" name="search" placeholder="Search for products...">
-                    <button type="submit" >Search</button>
-                    <div id="search-suggestions" class="suggestions-dropdown"></div>
-                    <nav>
-                        <a href="login.html">Login</a> &nbsp; |
-                        <a href="carts.html">My Carts</a>
-                    </nav>
-                </div>
+  <header>
+      <div class="header-container">
+          <div class="header-flex">
+              <div class="logo-title">
+                  <img src="Pictures/SSBNOS Logo.png" alt="SSBNOS Logo" class="logo">
+                  <h1><b>Sana Sana Babu Nani Online Store</b></h1>
+              </div>
+              <div class="search-login">
+                  <input type="text" id="search" name="search" placeholder="Search for products...">
+                  <button type="button" class="btn btn-primary">Search</button> 
+                  <div id="search-suggestions" class="suggestions-dropdown"></div>&nbsp;
+                  <nav>
+                      <div class="nav navbar-nav navbar-right">
+                          <a href="login.html"><span class="glyphicon glyphicon-user"></span></a> &nbsp;
+                          <a href="carts.html"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge">0</span></a>&nbsp;
+                      </div>
+
+                  </nav>
+              </div>
+          </div>
+      </div>
+
+
+
+      <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
             </div>
-        </div>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
-    <label for="menu-toggle" class="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-    <nav class="main-nav">
-        <a href="index.html"><u>Home</u></a> &nbsp; <li class="separator">|</li>
-        <div class="dropdown">
-            <button class="dropbtn"><u>Collection</u></button>
-            <div class="dropdown-content">
-                <a href="boysdress.html">Boy Dress</a>
-                <a href="girlsdress.html">Girl Dress</a>
-                <a href="newarrival.html">New Arrival</a>
-                <a href="bestseller.html">Best Seller</a>
-                <a href="toy.html">Toy</a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Collection<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="boysdress.html">Boy Dress</a></li>
+                    <li><a href="girlsdress.html">Girl Dress</a></li>
+                    <li><a href="newarrival.html">New Arrival</a></a></li>
+                    <li><a href="bestseller.html">Best Seller</a></li>
+                    <li><a href="toy.html">Toy</a></li>
+                  </ul>
+                </li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact-Us</a></li>
+              </ul>
             </div>
-        </div>
-        &nbsp; <li class="separator">|</li> &nbsp;
-        <a href="faqs.html"><u>FAQs</u></a> &nbsp; <li class="separator">|</li> &nbsp;
-        <a href="contact.html"><u>Contact Us</u></a>
-    </nav>
-    </header>
+          </div>
+        </nav>
+
+  </header>
 
     <main class="page">
         
@@ -64,33 +81,33 @@
             <div class="image-container">
                 <div class="image-item">
                     <img src="https://d3r47b04tm9cwy.cloudfront.net/product-images/BYT6710_New-1.webp" 
-                    alt="Toy1">
+                    alt="Toy1" class="img-circle">
                     <p>2 in 1 Baby Horse Rider-Kids Ride-On Push Car</p>
                 </div>
                 <div class="image-item">
                     <img src="https://i5.walmartimages.com/seo/MOONTOY-Baby-Rattle-Toys-3-6-Months-Sensory-Babies-Teething-Infants-0-12-Newborn-Girl-Infant-Boy-Gifts-Set_5b9847cb-1204-4359-adcc-bb5afdceb755.e257cd63a923bd376caa2bf5e0f0d2ea.jpeg" 
-                    alt="Toy2">
+                    alt="Toy2" class="img-circle">
                     <p>Rattles Teether Toys Set with Storage Box</p>
                 </div>
                 <div class="image-item">
                     <img src="https://m.media-amazon.com/images/I/718MphFi9oL._AC_SL1500_.jpg" 
-                    alt="Toy3">
+                    alt="Toy3" class="img-circle">
                     <p>STEAM Life Baby Piano Toys</p>
                 </div>
 
                 <div class="image-item">
                     <img src="https://media.karousell.com/media/photos/products/2021/2/4/baby_crib_hanging_toys_1612414088_de372c6f_progressive.jpg" 
-                    alt="Toy4">
+                    alt="Toy4" class="img-circle">
                     <p>Baby crib hanging toys</p>
                 </div>
                 <div class="image-item">
                     <img src="https://i5.walmartimages.com/seo/QIIBURR-Baby-Toys-Girls-Girl-Soft-Doll-Cute-Cuddly-Stuffed-Toy-Decoration-Companion_ecc2684d-b9e9-4f7b-8997-a8ba5d4661f1.f3c5db6291aa110b0be8350ce28373cd.jpeg" 
-                    alt="Toy5">
+                    alt="Toy5" class="img-circle">
                     <p>Soft Doll Cute Cuddly Stuffed Toy</p>
                 </div>
                 <div class="image-item">
                     <img src="https://static-01.daraz.com.np/p/d2057b96c7a8d66240b91cb06e91b54e.jpg_750x750.jpg_.webp" 
-                    alt="Toy6">
+                    alt="Toy6" class="img-circle">
                     <p>Wooden Puzzle Montessori Toys Alphabet Number Shape Matching Educational Games</p>
                 </div>
             </div>
