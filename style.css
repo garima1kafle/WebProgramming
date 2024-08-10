@@ -767,7 +767,6 @@ input, textarea {
         align-items: center;
         justify-content: center;
         display: flex;
-        padding-left: 2px;
     }
 
     .form-group input {
