@@ -387,7 +387,8 @@ input {
     background-color: #c1c5c6; /* Match background color to body */
     padding: 20px; /* Add padding for spacing inside the main content */
     margin: 0; /* Remove margin to avoid gaps */
-    min-height: calc(90vh - 120px); /* Adjust height to ensure it covers the page, accounting for header and footer height */
+    min-height: calc(90vh - 120px); /* Adjust height to ensure it covers 
+    the page, accounting for header and footer height */
 }
 
 .main-content h2 {
