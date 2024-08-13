@@ -211,15 +211,6 @@ main {
     font-size: 16px;
 }
 
-.checkbox label {
-    min-height: 20px;
-    padding-left: 0px;
-    margin-left: 70px;
-    margin-bottom: 0;
-    font-weight: 400;
-    cursor: pointer;
-}
-
 
 /* carts.css */
 
@@ -278,7 +269,7 @@ form {
 }
 
 .checkbox label {
-    margin-left: 50px;
+    margin-left: 140px;
     margin-top: 0;
 }
 
@@ -676,6 +667,11 @@ input, textarea {
 
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
+
+    .checkbox label {
+        margin-left: 50px;
+        margin-top: 0;
+    }
 
     .header-flex {
         flex-direction: column;
