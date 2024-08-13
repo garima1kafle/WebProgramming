@@ -79,39 +79,57 @@
             <h2><b>Home</b></h2>
             <p style="font-size: 18px;">Welcome to our online store. 
                 Browse our products and enjoy shopping!</p>
-            <div class="slide_background">
-            <section class="slider_id">
-                <section class="slider">
-                  <div class="slide one">
-                    <img src="https://cdn.cdnparenting.com/articles/2017/10/418461847-H.webp" 
-                    alt="shopping1" />
-                    <span class="caption"> shop now </span>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="https://cdn.cdnparenting.com/articles/2017/10/418461847-H.webp" 
+                      alt="shopping1" style="width:100%;"><span class="caption"> shop now </span>
+                    </div>
+              
+                    <div class="item">
+                      <img src="https://m.economictimes.com/thumb/msid-54631056,width-1200,height-900,resizemode-4,imgsize-62192/startups-shifting-focus-towards-baby-products-for-better-value.jpg" 
+                      alt="shopping2" style="width:100%;"><span class="caption"> shop now </span>
+                    </div>
+                  
+                    <div class="item">
+                      <img src="https://ecommercechinaagency.com/wp-content/uploads/2022/12/li-tzuni-507346-unsplash-scaled.jpg" 
+                      alt="shopping3" style="width:100%;"><span class="caption"> shop now </span>
+                    </div>
+
+                    <div class="item">
+                      <img src="https://m.media-amazon.com/images/I/613yNNItGmS.jpg" 
+                      alt="shopping4" style="width:100%;"><span class="caption"> shop now </span>
+                    </div>
+
+
+                    <div class="item">
+                      <img src="https://www.danielle-moss.com/wp-content/uploads/2021/04/Vertical-Homepage.png" 
+                      alt="shopping5" style="width:100%;"><span class="caption"> shop now </span>
+                    </div>
+
+                
                   </div>
-                  <div class="slide two">
-                    <img src="https://m.economictimes.com/thumb/msid-54631056,width-1200,height-900,resizemode-4,imgsize-62192/startups-shifting-focus-towards-baby-products-for-better-value.jpg" 
-                    alt="shopping2" />
-                    <span class="caption"> shop now </span>
-                  </div>
-                  <div class="slide three">
-                    <img src="https://ecommercechinaagency.com/wp-content/uploads/2022/12/li-tzuni-507346-unsplash-scaled.jpg" 
-                    alt="shopping3" />
-                    <span class="caption"> shop now </span>
-                  </div>
-                  <div class="slide four">
-                    <img src="https://m.media-amazon.com/images/I/613yNNItGmS.jpg" 
-                    alt="shopping4" />
-                    <span class="caption"> shop now </span>
-                  </div>
-                  <div class="slide five">
-                    <img src="https://www.danielle-moss.com/wp-content/uploads/2021/04/Vertical-Homepage.png" 
-                    alt="shopping5" />
-                    <span class="caption"> shop now </span>
-                  </div>
-                </section>
-              </section>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
-        </section>
-        
+
         <hr>
 
         <section id="products">

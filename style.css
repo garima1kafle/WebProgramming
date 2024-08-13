@@ -513,45 +513,6 @@ input, textarea {
     color: #c59b08;
 }
 
-.slide_background {
-    background-color: rgba(0, 0, 0, 0.957);
-    height: 70rem;
-}
-
-.slider_id {
-    position: relative;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    overflow: hidden;
-    margin-left: 10%;
-  }
-
-  .slider {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
-  }
-
-  .slide {
-    position: relative;
-    min-width: 100%;
-    height: 100%;
-  }
-
-  .slide img {
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
-  }
-
   .slide .caption {
     position: absolute;
     left: 0;
@@ -564,57 +525,6 @@ input, textarea {
     backdrop-filter: blur(10px);
     padding: 1rem 5rem;
     border-radius: 0 2rem 2rem 0;
-  }
-
-  .slide.one {
-    background: rgb(255, 255, 255);
-    
-  }
-
-  .slide.two {
-    background: rgb(255, 255, 255);
-  }
-
-  .slide.three {
-    background: rgb(255, 255, 255);
-  }
-
-  .slide.four {
-    background: rgb(255, 255, 255);
-  }
-
-  .slide.five {
-    background: rgb(255, 255, 255);
-  }
- 
-  @keyframes sliding {
-    0% {
-      transform: translateX(0%);
-    }
-    20% {
-      transform: translateX(0%);
-    }
-    25% {
-      transform: translateX(-100%);
-    }
-    45% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(-200%);
-    }
-    70% {
-      transform: translateX(-200%);
-    }
-    75% {
-      transform: translateX(-300%);
-    }
-    95% {
-      transform: translateX(-300%);
-    }
-    100% {
-      transform: translateX(-400%);
-    }
   }
 
   /* Product Details Styles */
@@ -767,50 +677,11 @@ input, textarea {
         height: 300px;
       }  
 
-      .slide_background {
-        width: 100%;
-        height: 300px;
-    }
-
-    .slider_container {
-        width: 90%;
-        height: 100%;
-        padding-top: 0;
-        margin: 0 5%;
-        padding-bottom: 0;
-    }
-
-    .slider {
-        width: 300%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
-    }
-
-    .slide {
-        min-width: 100%;
-        height: 100%;
-    }
-
-    .slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Ensures the image covers the slide without stretching */
-        opacity: 0.8;
-    }
 
     .slide .caption {
         bottom: 8%;
         font-size: 14px; /* Adjust font size for smaller screens */
         padding: 0.5rem 3rem; /* Adjust padding for smaller screens */
-    }
-
-    .slide.one, .slide.two, .slide.three, .slide.four, .slide.five {
-        width: 100%;
-        height: 300px; /* Ensure consistent height on mobile */
     }
     
         .image-container {
