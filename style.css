@@ -651,15 +651,7 @@ input, textarea {
     line-height: 1.6;
 }
 
-.product-specs {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-.product-specs td {
-    padding: 8px;
-    border: 1px solid #ddd;
+.table td {
     font-size: 16px;
 }
 
