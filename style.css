@@ -203,7 +203,6 @@ main {
     display: inline-block;
     text-align: left;
     margin-left: 40%;
-    padding-left: 5px;
 }
 
 .form-p {
@@ -211,13 +210,16 @@ main {
     font-size: 16px;
 }
 
-.checkbox label {
-    min-height: 20px;
-    padding-left: 0px;
-    margin-left: 70px;
-    margin-bottom: 0;
-    font-weight: 400;
-    cursor: pointer;
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 
@@ -273,18 +275,13 @@ form {
     flex-direction: column;
 }
 
-.checkbox {
-    margin-left: -140px;
-}
-
-.checkbox label {
-    margin-left: 140px;
-    margin-top: 0;
+label {
+    margin-bottom: 5px;
 }
 
 input {
     margin-bottom: 15px;
-    padding: 0 10px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -476,8 +473,6 @@ input, textarea {
 .contact-info-table a:hover {
     text-decoration: underline;
 }
-
-
 
 .rate {
     display: flex;
@@ -743,7 +738,7 @@ input, textarea {
     }
 
     .form-group input {
-        width: 100%;
+        width: 110%;
     }
 
     .main-content {
