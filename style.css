@@ -203,7 +203,7 @@ main {
     display: inline-block;
     text-align: left;
     margin-left: 40%;
-    padding-left: 5px;
+    padding-left: 25px;
 }
 
 .form-p {
@@ -278,7 +278,7 @@ form {
 }
 
 .checkbox label {
-    margin-left: 140px;
+    margin-left: 50px;
     margin-top: 0;
 }
 
@@ -740,10 +740,16 @@ input, textarea {
         align-items: center;
         justify-content: center;
         display: flex;
+        padding: 10px 0;
     }
 
     .form-group input {
         width: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+
     }
 
     .main-content {
