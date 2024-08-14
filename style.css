@@ -643,11 +643,11 @@ input, textarea {
     }
 
     .login-form {
-        margin: 40px 30px;
+        margin: 40px 65px;
         align-items: center;
         justify-content: center;
         display: flex;
-        padding: 20px 5px;
+        padding: 20px 10px;
     }
 
     .form-group input {
