@@ -643,7 +643,7 @@ input, textarea {
     }
 
     .login-form {
-        margin: 40px 60px;
+        margin: 40px 30px;
         align-items: center;
         justify-content: center;
         display: flex;
