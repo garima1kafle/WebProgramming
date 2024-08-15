@@ -575,10 +575,6 @@ input, textarea {
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
 
-    .checkbox {
-        margin-left: -100px;
-    }
-
     .checkbox label {
         margin-top: 0;
         margin-left: 60px;
