@@ -577,11 +577,11 @@ input, textarea {
 
     .checkbox label {
         margin-top: 0;
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
     .checkbox {
-        margin-left: -40px;
+        margin-left: -20px;
     }
 
     .header-flex {
