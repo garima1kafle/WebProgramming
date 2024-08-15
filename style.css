@@ -268,7 +268,7 @@ form {
 }
 
 .checkbox label {
-    margin-left: 140px;
+    margin-left: 70px;
     margin-top: 0;
 }
 
@@ -575,14 +575,6 @@ input, textarea {
 /* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
 
-    .checkbox label {
-        margin-top: 0;
-        padding-left: 20px;
-    }
-
-    .checkbox {
-        margin-left: -10px;
-    }
 
     .header-flex {
         flex-direction: column;
